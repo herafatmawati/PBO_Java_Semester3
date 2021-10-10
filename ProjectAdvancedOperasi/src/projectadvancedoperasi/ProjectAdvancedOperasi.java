@@ -15,7 +15,10 @@ public class ProjectAdvancedOperasi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Operasi j = new Operasi();
+        j.jumlahkan(3,4);
+        j.jumlahkan(4,7,-9);
+        j.jumlahkan(3.4,-0.002,0.12313);
     }
     
 }
